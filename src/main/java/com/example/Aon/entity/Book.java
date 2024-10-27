@@ -26,4 +26,7 @@ public class Book {
     private String title;
 
     private boolean isBorrowed = false;
+
+    @ManyToOne
+    private Borrower borrower;
 }
